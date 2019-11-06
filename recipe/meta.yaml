@@ -1,6 +1,6 @@
 {% set dataset_name = "RadioactiveDecay" %}
 {% set version = "5.4" %}
-{% set sha256 = "240779da7d13f5bf0db250f472298c3804513e8aca6cae301db97f5ccdcc4a61" %}
+{% set sha256 = "82e18ae9fe62831a9176a469b0eef81483b547d8673b71d22f9c54aa0d58bafc" %}
 {% set env_var = "G4RADIOACTIVEDATA" %}
 {% set summary = "GEANT4 data files for radioactive decay hadronic processes" %}
 
@@ -9,7 +9,7 @@
 
 package:
     name: {{ name }}
-    version: {{ version }}
+    version: "{{ version }}"
 
 source:
     url: https://geant4-data.web.cern.ch/geant4-data/datasets/G4{{ dataset_name }}.{{ version }}.tar.gz

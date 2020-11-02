@@ -1,6 +1,6 @@
 {% set dataset_name = "RadioactiveDecay" %}
-{% set version = "5.5" %}
-{% set sha256 = "220c3166e1bffb92b2682da770b99fadec6c1a9d12c873f1433322e9336ab1d8" %}
+{% set version = "5.6" %}
+{% set sha256 = "f834ce8f6addba1935f79b4997b9e6e7a1dc1fbb2464ff94dcdaa073cc5b16f4" %}
 {% set env_var = "G4RADIOACTIVEDATA" %}
 {% set summary = "GEANT4 data files for radioactive decay hadronic processes" %}
 
